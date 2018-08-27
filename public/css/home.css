@@ -1,0 +1,29 @@
+#divhome, #divlogin {
+    background-image: url("https://media.licdn.com/media/p/2/005/052/070/0e5e39e.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+}
+
+#fielbuscartrabajo, #panellogin {
+    position: absolute;
+    background-color: rgba(0, 134, 255, 0.7);
+    top: 30% !important;
+    width: 80%;
+    left: 10%;
+    border-radius: 6px;
+    border-color: rgba(0, 0, 255, 0.1);
+
+}
+
+#ciudad {
+    height: 3rem;
+}
+
+.select2-container .select2-selection--single {
+    height: 3rem !important;
+}
+
+input, select {
+    border-radius: 5px !important;
+}

@@ -1,0 +1,90 @@
+#actualizarfoto {
+    position: absolute;
+    bottom: 0;
+    left: 32%;
+    right: 20%;
+    background-color: rgba(125, 125, 125, 0.5);
+    border-radius: 6px;
+    width: 100px;
+}
+
+.obligatorio {
+    font-size: 19px;
+}
+
+em.error {
+    color: red !important;
+    position: absolute !important;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    top: 75%;
+}
+
+.has-error {
+    border-color: red!important;
+   /* -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)!important;*/
+   /* box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)!important;*/
+    color: red!important;
+}
+
+.has-success{
+    border-color: #3c763d!important;
+   /* -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)!important;*/
+    /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)!important;*/
+}
+
+.has-success .checkbox, .has-success .checkbox-inline, .has-success .control-label, .has-success .help-block, .has-success .radio, .has-success .radio-inline, .has-success.checkbox label, .has-success.checkbox-inline label, .has-success.radio label, .has-success.radio-inline label {
+    color: #3c763d;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+td, th{
+    padding: 0!important;
+}
+hr{
+    margin: 0!important;
+}
+.eliminarconocimiento{
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 8px;
+    color: red!important;
+}
+.chipconocimiento {
+    display: inline-block;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chipconocimiento img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.closebtn {
+    padding-left: 10px;
+    color: #888;
+    font-weight: bold;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: red;
+}
